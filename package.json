@@ -1,0 +1,14 @@
+{
+  "name": "image-download-pdf",
+  "version": "0.0.0",
+  "description": "ImageDownloadPdf",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "image-size": "^0.7.1",
+    "jimp": "^0.16.1",
+    "pdfkit": "v0.11.0"
+  }
+}
