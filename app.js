@@ -7,34 +7,19 @@ const PDFKit = require('pdfkit');
 const Jimp = require('jimp');
 
 const directory = 'Input';
-const name = 'Output/Cap_01.pdf';
+const name = 'Output/Cap_12_5.pdf';
 
 const urls = [
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(51).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(52).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(53).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(54).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(55).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(56).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(57).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(58).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(59).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(60).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(61).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(62).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(63).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(64).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(65).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(66).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(67).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(68).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(69).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(70).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(71).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(72).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(73).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(74).jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/01/(75).jpg"
+    "https://unionleitor.top/leitor/mangas/Umbrella Academy/12.5/Umbrella_167.jpg",
+    "https://unionleitor.top/leitor/mangas/Umbrella Academy/12.5/Umbrella_168.jpg",
+    "https://unionleitor.top/leitor/mangas/Umbrella Academy/12.5/Umbrella_169.jpg",
+    "https://unionleitor.top/leitor/mangas/Umbrella Academy/12.5/Umbrella_170.jpg",
+    "https://unionleitor.top/leitor/mangas/Umbrella Academy/12.5/Umbrella_171.jpg",
+    "https://unionleitor.top/leitor/mangas/Umbrella Academy/12.5/Umbrella_172.jpg",
+    "https://unionleitor.top/leitor/mangas/Umbrella Academy/12.5/Umbrella_173.jpg",
+    "https://unionleitor.top/leitor/mangas/Umbrella Academy/12.5/Umbrella_183_184.jpg",
+    "https://unionleitor.top/leitor/mangas/Umbrella Academy/12.5/Umbrella_185.jpg",
+    "https://unionleitor.top/leitor/mangas/Umbrella Academy/12.5/Umbrella_186.jpg"
 ];
 
 async function loadUrls(urls) {
