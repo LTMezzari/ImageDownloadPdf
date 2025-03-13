@@ -9,18 +9,7 @@ const Jimp = require('jimp');
 const directory = 'Input';
 const name = 'Output/Cap_12_5.pdf';
 
-const urls = [
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/12.5/Umbrella_167.jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/12.5/Umbrella_168.jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/12.5/Umbrella_169.jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/12.5/Umbrella_170.jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/12.5/Umbrella_171.jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/12.5/Umbrella_172.jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/12.5/Umbrella_173.jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/12.5/Umbrella_183_184.jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/12.5/Umbrella_185.jpg",
-    "https://unionleitor.top/leitor/mangas/Umbrella Academy/12.5/Umbrella_186.jpg"
-];
+const urls = [];
 
 async function loadUrls(urls) {
     for (let i = 0; i < urls.length; i++) {
